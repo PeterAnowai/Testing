@@ -1,8 +1,8 @@
 import requests
 
-def decode_document(doc_url):
+def decode_document(https://docs.google.com/document/d/e/2PACX-1vQGUck9HIFCyezsrBSnmENk5ieJuYwpt7YHYEzeNJkIb9OSDdx-ov2nRNReKQyey-cwJOoEKUhLmN9z/pub):
     # Fetch the document’s text
-    response = requests.get(doc_url)
+    response = requests.get(https://docs.google.com/document/d/e/2PACX-1vQGUck9HIFCyezsrBSnmENk5ieJuYwpt7YHYEzeNJkIb9OSDdx-ov2nRNReKQyey-cwJOoEKUhLmN9z/pub)
     lines = response.text.splitlines()
 
     # Collect all parsed (x, y, char) values
